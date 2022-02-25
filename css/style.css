@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
+    position: relative;
 }
 
 
@@ -61,8 +62,10 @@ footer{
     display: flex;
     justify-content: space-between;
     padding: 10px 12px;
-    margin-top: 240px;
+    margin-top: 267px;
     background: lightgray;
+    position: absolute;
+    width: 100%;
 }
 
 #firstinfo{
