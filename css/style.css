@@ -6,10 +6,10 @@
     position: relative;
 }
 
-body{
+/* body{
     width: 100vw;
     height: 100vh;
-}
+} */
 
 /* navbar starts */
 #navdiv{
@@ -22,10 +22,7 @@ body{
     position: absolute;
 }
 
-nav img{
-    margin-top: 3px;
-    cursor: pointer;
-}
+
 
 nav button{
     width: 40px;
@@ -42,11 +39,12 @@ nav button{
 
 nav a{
     color: #000000;
-    margin-top: 3px
+    margin-top: 3px;
 }
 
 nav a:hover{
-    text-decoration: underline
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 /* navbar ends */
@@ -82,19 +80,21 @@ section button:hover{
     width: 30em;
     border-radius: 30px;
     border: 1px solid #000;
+    background: transparent;
+    font-size: 14px;
 }
 
-#search{
 
+#search{
+    left: 30px;
+    top: 7px;
 }
 
 #mic{
-    
+    left: -37px;
+    top: 9px;
 }
 
-#searchbox:hover{
-
-}
 
 /* main area ends */
 
