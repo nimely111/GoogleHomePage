@@ -6,10 +6,10 @@
     position: relative;
 }
 
-/* body{
+body{
     width: 100vw;
     height: 100vh;
-} */
+}
 
 /* navbar starts */
 #navdiv{
@@ -42,10 +42,7 @@ nav a{
     margin-top: 3px;
 }
 
-nav a:hover{
-    text-decoration: underline;
-    cursor: pointer;
-}
+
 
 /* navbar ends */
 
