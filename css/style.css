@@ -6,7 +6,12 @@
     position: relative;
 }
 
+body{
+    width: 100vw;
+    height: 100vh;
+}
 
+/* navbar starts */
 #navdiv{
     display: flex;
     justify-content: space-around;
@@ -14,6 +19,7 @@
     margin-left: 82%;
     margin-top: 1%;
     height: 35px;
+    position: absolute;
 }
 
 nav img{
@@ -43,6 +49,13 @@ nav a:hover{
     text-decoration: underline
 }
 
+/* navbar ends */
+
+main img{
+    margin-top: 50px;
+}
+
+/* main area starts */
 section {
     display: flex;
     justify-content: space-around;
@@ -58,14 +71,45 @@ section button {
     cursor: pointer;
 }
 
+section button:hover{
+    border: 1px solid #000;
+}
+
+/* main area starts */
+
+#searchbox{
+    padding: 10px 12px;
+    width: 30em;
+    border-radius: 30px;
+    border: 1px solid #000;
+}
+
+#search{
+
+}
+
+#mic{
+    
+}
+
+#searchbox:hover{
+
+}
+
+/* main area ends */
+
+
+/* footer starts*/
+
 footer{
     display: flex;
     justify-content: space-between;
     padding: 10px 12px;
-    margin-top: 267px;
+    margin-top: 200px;
     background: lightgray;
     position: absolute;
-    width: 100%;
+    text-align:center;
+    width: 100vw;
 }
 
 #firstinfo{
