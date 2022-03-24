@@ -12,14 +12,13 @@ body{
 }
 
 /* navbar starts */
-#navdiv{
+#navspan{
     display: flex;
     justify-content: space-around;
-    width: 17%;
-    margin-left: 82%;
-    margin-top: 1%;
-    height: 35px;
+    width: 300px;
     position: absolute;
+    right: 5px;
+    margin-top: 2%;
 }
 
 
@@ -30,11 +29,10 @@ nav #profile{
     margin-top: -5px;
     border: none;
     border-radius: 50%;
-    cursor: pointer;
 }
 
 nav a{
-    color: #000000;
+    color: #000;
     margin-top: 3px;
 }
 
@@ -43,6 +41,9 @@ nav a:hover{
     text-decoration: underline;
 }
 
+nav img:hover{
+    cursor: pointer;
+}
 
 
 /* navbar ends */
@@ -50,6 +51,8 @@ nav a:hover{
 main img{
     margin-top: 50px;
 }
+
+
 
 /* main area starts */
 section {
