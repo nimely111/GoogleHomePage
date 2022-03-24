@@ -3,22 +3,21 @@
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
-    position: relative;
 }
 
-body{
-    width: 100vw;
-    height: 100vh;
+.cover{
+    width: 100%;
+    overflow: none;
+    position: fixed;
 }
-
 /* navbar starts */
 #navspan{
     display: flex;
     justify-content: space-around;
     width: 300px;
-    position: absolute;
+    position: fixed;
     right: 5px;
-    margin-top: 2%;
+    margin-top: 1%;
 }
 
 
@@ -26,7 +25,7 @@ body{
 nav #profile{
     width: 40px;
     height: 40px;
-    margin-top: -5px;
+    margin-top: -1px;
     border: none;
     border-radius: 50%;
 }
@@ -89,16 +88,6 @@ section button:hover{
 }
 
 
-#search{
-    left: 30px;
-    top: 7px;
-}
-
-#mic{
-    left: -37px;
-    top: 9px;
-}
-
 
 /* main area ends */
 
@@ -108,19 +97,29 @@ section button:hover{
 footer{
     display: flex;
     justify-content: space-between;
-    margin-top: 190px;
     background: lightgray;
-    position: absolute;    padding: 10px 12px;
-
-    padding: 10px;
+    position: absolute;    
+    padding: 10px 12px;
     width: 100vw;
+    height: 40px;
+    font-size: 1em;
+    left: 0;
+    right: 0;
+    bottom: -65%;
 }
 
 #firstinfo{
     display: flex;
-    justify-content: space-around;
+}
+
+#firstinfo p{
+    margin-right: 13px;
 }
 
 #secondinfo{
     display: flex;
+}
+
+#secondinfo p{
+    margin-right: 13px;
 }
