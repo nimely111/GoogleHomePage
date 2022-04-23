@@ -1,3 +1,4 @@
+/*------------Base--------------*/
 *{
     padding: 0;
     margin: 0;
@@ -21,10 +22,9 @@
 }
 
 
-
 nav #profile{
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     margin-top: -1px;
     border: none;
     border-radius: 50%;
@@ -70,6 +70,7 @@ section button {
 }
 
 section button:hover{
+    box-sizing: border-box;
     border: 1px solid #000;
 }
 
@@ -88,6 +89,24 @@ section button:hover{
 }
 
 
+#searchbox{
+    position: relative;
+}
+
+#search{
+    position: absolute;
+    top: 51%;
+    left: 31%;
+    bottom: 2;
+}
+
+#mic{
+    position: absolute;
+    top: 50%;
+    right: 31%;
+    bottom: 2;
+}
+
 
 /* main area ends */
 
@@ -95,6 +114,7 @@ section button:hover{
 /* footer starts*/
 
 footer{
+    clear: both;
     display: flex;
     justify-content: space-between;
     background: lightgray;
@@ -105,14 +125,19 @@ footer{
     font-size: 1em;
     left: 0;
     right: 0;
-    bottom: -65%;
+    bottom: -90%;
+}
+
+footer a{
+    color: #000;
+
 }
 
 #firstinfo{
     display: flex;
 }
 
-#firstinfo p{
+#firstinfo a{
     margin-right: 13px;
 }
 
@@ -120,6 +145,8 @@ footer{
     display: flex;
 }
 
-#secondinfo p{
+#secondinfo a{
     margin-right: 13px;
 }
+
+/* footer ends*/
