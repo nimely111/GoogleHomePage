@@ -151,8 +151,36 @@ footer a{
 /* footer ends*/
 
 
-/* ========= large device =========*/
+/* ========= medium device =========*/
 
-@media (min-width: 1200px){
-    
+@media (min-width: 860px) and (max-width: 1199px) {
+   
+    main{
+        width: 100%;
+    }
+
+    .footer{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+
+
+#firstinfo{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#firstinfo a{
+    margin-right: 13px;
+}
+
+#secondinfo{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
 }
