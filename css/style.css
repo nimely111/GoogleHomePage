@@ -7,9 +7,10 @@
 }
 
 .cover{
+    min-width: 900px;
     width: 100%;
     overflow: none;
-    position: fixed;
+    background-size: cover;
 }
 /* navbar starts */
 #navspan{
@@ -60,21 +61,21 @@ section {
     width: 270px;
     margin: auto;
     margin-top: 3%;
+    box-sizing: border-box;
 }
 
 section button {
+    box-sizing: border-box;
     padding: 10px 12px;
     border: none;
     border-radius: 3px;
     cursor: pointer;
 }
 
-section button:hover{
-    box-sizing: border-box;
+button:hover{
     border: 1px solid #000;
 }
 
-/* main area starts */
 
 #searchbox{
     padding: 10px 12px;
@@ -114,7 +115,6 @@ section button:hover{
 /* footer starts*/
 
 footer{
-    clear: both;
     display: flex;
     justify-content: space-between;
     background: lightgray;
@@ -125,7 +125,7 @@ footer{
     font-size: 1em;
     left: 0;
     right: 0;
-    bottom: -90%;
+    bottom: 0;
 }
 
 footer a{
@@ -148,5 +148,11 @@ footer a{
 #secondinfo a{
     margin-right: 13px;
 }
-
 /* footer ends*/
+
+
+/* ========= large device =========*/
+
+@media (min-width: 1200px){
+    
+}
