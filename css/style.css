@@ -96,14 +96,14 @@ button:hover{
 
 #search{
     position: absolute;
-    top: 51%;
+    top: 27%;
     left: 31%;
     bottom: 2;
 }
 
 #mic{
     position: absolute;
-    top: 50%;
+    top: 26%;
     right: 31%;
     bottom: 2;
 }
