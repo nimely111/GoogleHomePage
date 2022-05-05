@@ -183,4 +183,21 @@ footer a{
     flex-wrap: wrap;
 
 }
+
+#searchbox{
+    width: 30em;
+}
+
+#search{
+    top: 27%;
+    left: 25%;
+    bottom: 2;
+}
+
+#mic{
+    position: absolute;
+    top: 26%;
+    right: 25%;
+    bottom: 2;
+}
 }
