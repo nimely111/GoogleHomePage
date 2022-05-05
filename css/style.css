@@ -4,7 +4,6 @@
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
-    background-color:#fff;
 }
 
 .cover{
@@ -158,7 +157,7 @@ footer a{
 @media (min-width: 860px) and (max-width: 1199px) {
    
     main{
-        width: 100%;
+        width: 100vw;
     }
 
     .footer{
@@ -166,8 +165,6 @@ footer a{
         justify-content: space-around;
         flex-wrap: wrap;
     }
-
-
 
 #firstinfo{
     display: flex;
@@ -183,6 +180,4 @@ footer a{
     flex-wrap: wrap;
 
 }
-
-
 }
