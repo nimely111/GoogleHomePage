@@ -17,6 +17,7 @@
 #navspan{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     width: 300px;
     position: fixed;
     right: 5px;
