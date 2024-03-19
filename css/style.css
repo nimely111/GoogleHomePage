@@ -84,7 +84,7 @@ button:hover{
 
 #searchbox{
     padding: 10px 12px;
-    width: 30em;
+    width: 40%;
     border-radius: 30px;
     border: 1px solid #000;
     background: transparent;
@@ -172,7 +172,7 @@ footer a{
     }
 
 #firstinfo{
-    display: flex;
+    display: block;
     flex-wrap: wrap;
 }
 
