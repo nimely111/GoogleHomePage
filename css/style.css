@@ -8,9 +8,10 @@
 }
 
 .cover{
-    min-width: 100%;
+    min-width: 90%;
     overflow: none;
     background-size: cover;
+    margin: 0 auto;
 }
 /* navbar starts */
 #navspan{
@@ -156,4 +157,9 @@ footer a{
 /* footer ends*/
 
 
-/* ========= medium device =========*/
+/* ========= screens smaller than 768px =========*/
+@media (max-width: 768px){
+    .cover{
+        width: 100%;
+    }
+}
