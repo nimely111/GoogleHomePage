@@ -9,7 +9,6 @@
 
 .cover{
     min-width: 100%;
-    width: 100%;
     overflow: none;
     background-size: cover;
 }
